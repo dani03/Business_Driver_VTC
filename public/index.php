@@ -9,7 +9,7 @@ require '../pages/head.php';
 
 
 
-// chargement de la page choisie ou du home par défaut dans la variable $content, qui elle-même sera appellée dans le default.php, required plus bas 
+// chargement de la page choisie ou du home par défaut dans la variable $content, qui elle-même sera appellée dans le default.php, required plus bas
 
 
 
@@ -18,7 +18,7 @@ ob_start();
 
 if(isset($_GET['p'])){
 
-$p = htmlspecialchars($_GET['p']); 
+$p = htmlspecialchars($_GET['p']);
 
 }else{
 

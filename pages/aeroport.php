@@ -2,7 +2,7 @@
 
 
 <div id="aile" class="parallax-container">
-    <div class="parallax"><img  style="display: block;" src="../pages/images/aile_avion.jpeg"></div>
+    <div class="parallax"><img  style="display: block;" src="../images/avion.jpeg"></div>
 </div>
 
 <div style="position: absolute; top: 200px; left: 320px; z-index: 5;"><h3>TRANSPORT AEROPORT</h3>

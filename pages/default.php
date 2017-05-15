@@ -4,18 +4,18 @@
 
 <header class="row">
 	<div id="header_flex" class="col-xs-12">
-		
+
 			<h1 id="marque">Business Drivers</h1>
 
 
 			<div id="header_est">
 				<div id="telephone">
-					<img id="tel" src="../pages/images/tel.png"> 01 42 62 42 22
+					<img id="tel" src="../images/tel.png"> 01 42 62 42 22
 				</div>
 				<div id="mon_compte">
 				Mon compte
 				</div>
-			</div>	
+			</div>
 	</div>
 
 </header>
@@ -25,7 +25,7 @@
 	<div class="trait">
 	</div>
 <div id="navi">
-<?php 
+<?php
 if ($p!=='home'){
 	?>
 <ul>
@@ -44,7 +44,7 @@ if ($p!=='home'){
 }
 ?>
 </div>
-	
+
 <main>
 
 
@@ -60,17 +60,17 @@ echo $content;
 </main>
 
 <footer>
-	
+
 </footer>
 
 
  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 
- 
+
  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
 
 	<script type="text/javascript" src="../public/js/bd.js"></script>
-	
+
 </body>
 
 
