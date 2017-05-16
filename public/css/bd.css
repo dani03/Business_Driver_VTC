@@ -227,11 +227,15 @@ height: 30px;
 }
 
 .formulaire{
-	background-color: white;
+	background-color: #FFD700;
 	height: 380px;
 	width: 380px;
 	border-radius: 7px;
 	text-align: center;
+}
+
+#submit{
+	width: 100px;
 }
 
 label{
@@ -243,28 +247,42 @@ label{
 input{
 	width: 300px;
 	height: 30px;
+	margin: 2px;
 }
 
+select{
+	display: flex;
+	align-self: flex-start;
+	margin-left: 30px;
+}
 #reserverClick:hover{
 	background-color: gold;
 }
 
-/*#form{
+#form{
 	display: inline-block;
 	display: flex;
 	flex-direction: column;
-	height: 200px;
-	width: 260px;
+	align-items: center;
+	text-align: center;
+	height: 300px;
+	width: 380px;
 	border-radius: 7px;
-	background-color: gold;
-	padding: 20px 10px;
+	background-color: #FFD700;
 	z-index: 30;
 	position: absolute;
-	top: 368px;
+	top: 250px;
 	left: -400px;
 	font-weight: bold;
-}*/
+	padding-top: 10px;
+}
+.horaires{
+	display: flex;
+	align-self: flex-end;
+	margin-left: 30px;
+}
 
-/*#form label{
-	padding-left: 5px;
-}*/
+	#form input{
+		margin-left: 5px;
+		margin-bottom: 5px;
+	}
