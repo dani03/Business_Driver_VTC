@@ -60,7 +60,7 @@
 			<img class="image" src="../images/chauffeur.jpg">
 			<div class="titles">Partout, à tout instant</div>
 
-<p> Un vol à prendre  ? Une course à l'autre bout de la ville, ou un grand trajet ? <strong>Business Drivers</strong>  vient vous chercher à tout moment.</p>
+<p> Un vol à prendre  ? Une course à l'autre bout de la ville, ou un grand trajet ? <strong>Transfert Class</strong>  vient vous chercher à tout moment.</p>
 		</div>
 		<div class="etape">
 			<img class="image" src="../images/paiement.jpg">
