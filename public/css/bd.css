@@ -87,7 +87,9 @@ h1 #marque{
 }
 
 #navi ul li{
-	display: inline-block;
+	display: flex;
+	align-items: center;
+	list-style: none;
 	width: 180px;
 	height: 45px;
 	border-radius: 5px;
@@ -97,8 +99,6 @@ h1 #marque{
 	background-color: rgb(248, 248, 249);
 	text-align: center;
 	line-height: 20px;
-	padding-top: 25px;
-	/*border-right: 1px solid gold;*/
 }
 
 #navi ul li:hover{
@@ -177,8 +177,13 @@ height: 30px;
 #aile{
 	width: 100%;
 	height: 450px;
-	/*background: url('../../images/avion.jpeg') fixed no-repeat;*/
-	background-size: 1100px 750px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background: url('../../images/airport.jpeg')  fixed no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*background-size: 1100px 750px;*/
 }
 
 #mesure{
@@ -215,21 +220,44 @@ height: 30px;
 }
 
 .formulaire{
-	background-color: #FFD700;
-	height: 380px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	height: 290px;
 	width: 380px;
 	border-radius: 7px;
-	text-align: center;
+	background-color: #FFD700;
+	font-weight: bold;
+	padding-top: 10px;
 }
 
 #submit{
 	width: 100px;
+	display: flex;
+	align-self: center;
 }
 
-label{
+.formulaire label{
+	margin-left: 30px;
+	display: flex;
+	align-self: flex-start;
+}
+
+.formulaire input{
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#form label{
 	display: flex;
 	align-self: flex-start;
 	margin-left: 30px;
+}
+
+#form input{
+	margin-left: 5px;
+	margin-bottom: 5px;
 }
 
 input{
@@ -248,12 +276,11 @@ select{
 }
 
 #form{
-	display: inline-block;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	height: 300px;
+	height: 280px;
 	width: 380px;
 	border-radius: 7px;
 	background-color: #FFD700;
@@ -264,9 +291,10 @@ select{
 	font-weight: bold;
 	padding-top: 10px;
 }
+
 .horaires{
 	display: flex;
-	align-self: flex-end;
+	align-self: flex-start;
 	margin-left: 30px;
 }
 
@@ -281,8 +309,3 @@ select{
 	font-size: 25px;
 	padding: 0 10px;
 }
-
-	#form input{
-		margin-left: 5px;
-		margin-bottom: 5px;
-	}
