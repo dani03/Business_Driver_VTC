@@ -3,8 +3,7 @@
 
 <div id="mesure">
     <h1>Transport sur mesure</h1>
-    <form class="formulaire" method="post" action="#">
-      <br>
+    <form class="formulaire" method="post" action="#"><br>
       <label for="origine">Partir de:</label><br>
       <input type="text" name="origine" id="origine"><br>
       <label for="destination">Aller à:</label><br>
@@ -32,7 +31,11 @@
         <option value="22:00">22:00</option>
         <option value="23:00">23:00</option>
         <option value="00:00">00:00</option>
-      </select><br><br>
+      </select><br>
       <input id="submit" type="submit">
     </form>
+</div>
+<div class="descriptif">
+  <h1>Transport sur mesure</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
