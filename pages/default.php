@@ -5,7 +5,7 @@
 <header class="row">
 	<div id="header_flex" class="col-xs-12">
 
-			<h1 id="marque">Business Drivers</h1>
+			<h1 id="marque">Transfert Class</h1>
 
 
 			<div id="header_est">
@@ -32,6 +32,8 @@ if ($p!=='home'){
 	<li ><a href="index.php?p=home">Accueil</a></li>
 	<li><a href="index.php?p=aeroport">Trajet Aéroport</a></li>
 	<li><a href="index.php?p=sur_mesure">Trajet Sur mesure</a></li>
+	<li><a href="index.php?p=sur_mesure">Déplacements divers</a></li>
+	<li><a href="index.php?p=Mise_a_disposition">Mise à disposition</a></li>
 </ul>
 <?php
 }else{
@@ -39,6 +41,8 @@ if ($p!=='home'){
 	<ul>
 	<li><a href="index.php?p=aeroport">Trajet Aéroport</a></li>
 	<li><a href="index.php?p=sur_mesure">Trajet Sur mesure</a></li>
+	<li><a href="index.php?p=sur_mesure">Déplacements divers</a></li>
+	<li><a href="index.php?p=Mise_a_disposition">Mise à disposition</a></li>
 </ul>
 <?php
 }
