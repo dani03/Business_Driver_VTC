@@ -9,8 +9,8 @@
       <label for="destination">Aller à:</label><br>
       <input type="text" name="destination" id="destination"><br>
       <div class="hd">
-        <label for="date">Date:</label><br>
-        <input type="date" name="" value="" placeholder="jj/mm/aaaa"><br>
+        <label for="date">Date:</label>
+        <input type="date" name="" value="" placeholder="jj/mm/aaaa">
         <label for="heure">Horaire:</label>
         <select class="horaires" name="horaires">
           <option value="06:00">06:00</option>
@@ -33,6 +33,11 @@
           <option value="23:00">23:00</option>
           <option value="00:00">00:00</option>
         </select><br>
+      </div>
+      <label for="">Etape dans votre trajet:</label>
+      <div class="radio2">
+        <input type="radio" name="choix" value="oui">Oui
+        <input type="radio" name="choix" value="non">Non
       </div>
       <input id="submit" type="submit">
     </form>

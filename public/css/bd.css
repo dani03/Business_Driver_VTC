@@ -287,7 +287,7 @@ select{
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	height: 220px;
+	height: 270px;
 	width: 370px;
 	border-radius: 7px;
 	background-color: #FFD700;
@@ -333,6 +333,12 @@ select{
 .hd label{
 	margin-left: 10px;
 }
+
+.radio2{
+	display: flex;
+	width: 3px;
+	justify-content: flex-end;
+}
 /*************************formulaire aeroport************************************/
 
 #aile h1 {
@@ -366,6 +372,11 @@ select{
 	text-align: center;
 }
 
+hr{
+	width: 500px;
+	margin-top: 20px;
+}
+
 /************************** formulaire mise a disposition **********************/
 
 #disposition{
@@ -374,8 +385,8 @@ select{
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	background: url('../../images/chauffeur.jpg')  fixed no-repeat;
-	background-position: center;
+	background: url('../../images/misead.jpeg')  fixed no-repeat;
+	background-position: bottom;
 	background-attachment: fixed;
 	background-size: cover;
 }

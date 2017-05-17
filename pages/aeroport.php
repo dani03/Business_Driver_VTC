@@ -3,32 +3,28 @@
       <h1>Trajet aéroport</h1>
       <form class="formulaire2" method="post" action="#"><br>
       <h3>Mes informations</h3>
-      <label for="name">nom* :</label>
+      <label for="name">Nom*:</label>
       <input type="text" name="nom" value="" required="" placeholder="entrez votre nom" id='name'>
-      <label for="firstname"> prenom* :</label>
+      <label for="firstname">Prenom*:</label>
       <input type="text" name="firstname" value="" required="" placeholder="entrez votre prenom" id='firstname'><br>
-      <label for="email">email* :</label>
+      <label for="email">Email*:</label>
       <input type="email" name="mail" value="" required="" placeholder="ex:driver@gmail.com">
+      <hr>
       <h3>Mon trajet</h3>
-      <label for="go"> lieu de depart* :</label>
+      <label for="go">Depart*:</label>
       <input type="text" name="" value="" id="go" required="" placeholder="entrez votre lieu de depart">
                   ou aeroport:
       <select value="choisir un aeroport">
-        <option value="1">choississez</option>
-        <option value="2">Paris/Charles deGaulle</option>
-        <option value="3">Paris/Orly</option>
+        <option value="1">Paris/Roissy-Charles deGaulle</option>
+        <option value="2">Paris/Orly</option>
       </select><br>
-      <label for="arriver"> lieu d'arriver* :</label>
+      <label for="arriver">Arriver*:</label>
       <input type="text" name="" value="" id="arriver" placeholder="entrez votre lieu d'arrivé">
-      <label for="selection" id='choix2'>ou aeroport :</label>
+      <label for="selection" id='choix2'>ou aeroport:</label>
       <select class="two" name="aeroports" id='selection'>
-        <option value="1">choississez</option>
-        <option value="2">Paris/Roissy-Charles deGaulle</option>
-        <option value="3">Paris/Orly</option>
+        <option value="1">Paris/Roissy-Charles deGaulle</option>
+        <option value="2">Paris/Orly</option>
       </select><br>
-       <label for="">etape dans le trajet :</label>
-       <input type="radio" class="radio" name="choix" value="oui"> oui
-       <input type="radio" class="radio" name="choix" value="non"> non <br>
        <label for="personne"> nombres de personnes :</label>
        <select class="personnes" name="">
           <option value="1">1</option>
@@ -37,7 +33,7 @@
           <option value="4">4</option>
        </select> |
        <label for="horaires">heure de depart :</label>
-       <select class="horaires" name="horaires">
+       <select name="horaires">
          <option value="06:00">06:00</option>
          <option value="07:00">07:00</option>
          <option value="08:00">08:00</option>
