@@ -4,10 +4,7 @@
 
 <header class="row">
 	<div id="header_flex" class="col-xs-12">
-
 			<h1 id="marque">Transfert Class</h1>
-
-
 			<div id="header_est">
 				<div id="telephone">
 					<img id="tel" src="../images/tel.png"> 01 42 62 42 22
@@ -33,7 +30,7 @@ if ($p!=='home'){
 	<li><a href="index.php?p=aeroport">Trajet Aéroport</a></li>
 	<li><a href="index.php?p=sur_mesure">Trajet Sur mesure</a></li>
 	<li><a href="index.php?p=sur_mesure">Déplacements divers</a></li>
-	<li><a href="index.php?p=Mise_a_disposition">Mise à disposition</a></li>
+	<li><a href="index.php?p=mise_a_disposition">Mise à disposition</a></li>
 </ul>
 <?php
 }else{

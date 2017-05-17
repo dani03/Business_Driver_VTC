@@ -1,13 +1,8 @@
 <?php
-
 session_start();
-
-
 ?>
 
-
 <!DOCTYPE html>
-
 <html>
 <head>
 	<title>Transfert Class - Transport Aéroport</title>

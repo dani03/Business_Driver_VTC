@@ -30,10 +30,6 @@ require '../pages/'.$p.'.php';
 
 $content = ob_get_clean();
 
-
-
-
 require '../pages/default.php';
-
 
 ?>
