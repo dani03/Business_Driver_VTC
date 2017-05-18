@@ -61,5 +61,6 @@
 <p>Une qualité de service haut de gamme. Pour votre transport en confiance et à n'importe quelle occasion, commandez un véhicule de qualité.</p>
 		</div>
 	</div>
-
 </div>
+<script type="text/javascript" src="../public/js/animation.js"></script>
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
