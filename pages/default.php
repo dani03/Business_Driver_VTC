@@ -37,7 +37,7 @@ if ($p!=='home'){
 	<ul>
 	<li><a href="index.php?p=aeroport">Trajet Aéroport</a></li>
 	<li><a href="index.php?p=sur_mesure">Trajet Sur mesure</a></li>
-	<li><a href="index.php?p=Mise_a_disposition">Mise à disposition</a></li>
+	<li><a href="index.php?p=mise_a_disposition">Mise à disposition</a></li>
 </ul>
 <?php
 }
