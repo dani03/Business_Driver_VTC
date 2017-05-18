@@ -87,6 +87,7 @@ h1 #marque{
 #navi ul li{
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	list-style: none;
 	width: 180px;
 	height: 45px;
@@ -101,7 +102,7 @@ h1 #marque{
 
 #navi ul li:hover{
 	background-color: gold;
-	transition: 1s;
+	transition: 0.7s;
 }
 
 #navi ul li:checked{
@@ -306,8 +307,6 @@ select{
 	align-self: center;
 	cursor: pointer;
 	margin-top: 10px;
-	/*color:yellow;
-	background-color: black;*/
 }
 
 .formulaire label{
@@ -345,8 +344,9 @@ select{
 	color: white;
 }
 .formulaire2{
-	display: inline-block;
-	height: 450px;
+	display: flex;
+	flex-direction: column;
+	height: 400px;
 	width: 60%;
 	border-radius: 7px;
 	background-color: #FFD700;
@@ -363,13 +363,16 @@ select{
 .formulaire2 h3{
 	  text-align: center;
 }
-.formulaire2 #validation{
+#validation{
 	height: 30px;
-	width: 170px;
+	width: 100px;
 	cursor: pointer;
-	color:yellow;
-	background-color: black;
 	text-align: center;
+	margin-top: 15px;
+}
+
+#email{
+	margin-top: 10px;
 }
 
 hr{

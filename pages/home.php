@@ -38,15 +38,6 @@
 		</select><br><br>
 		<input id="submit" type="submit">
 	</form>
-	<!-- <div id="form">
-		<form method="post" action="#">
-		<br>
-		<label for="origine">Partir de : </label><input type="text" name="origine" id="origine"><br><br>
-		<label for="destination">Aller à :</label><input type="text" name="destination" id="destination"><br><br>
-		<label for="heure">Horaires : </label><input type="datetime" name="heure">
-		</form>
-	</div> -->
-
 <video id="film" src="../images/film.mp4" width="1000px" autoplay loop>Optez pour un navigateur plus récent</video>
 
 	<div class="trait"></div>
