@@ -230,8 +230,14 @@ input{
 
 }
 
-select{
-	margin-left: 10px;
+#form select{
+	display: flex;
+	align-self: flex-start;
+	margin-left: 85px;
+}
+
+#form h1{
+	margin-top: 0;
 }
 
 #reserverClick:hover{
@@ -243,13 +249,13 @@ select{
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	height: 280px;
+	height: 325px;
 	width: 380px;
 	border-radius: 7px;
 	background-color: #FFD700;
 	z-index: 30;
 	position: absolute;
-	top: 250px;
+	top: 220px;
 	left: -400px;
 	font-weight: bold;
 	padding-top: 10px;

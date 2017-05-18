@@ -39,7 +39,7 @@
         <input type="radio" name="choix" value="oui">Oui
         <input type="radio" name="choix" value="non">Non
       </div>
-      <input id="submit" type="submit">
+      <input id="submit" type="submit" value="Reservez">
     </form>
 </div>
 <div class="descriptif">

@@ -8,6 +8,7 @@
 	</div>
 	<form id="form" method="post" action="#">
 		<br>
+		<h1>Entrez votre trajet</h1>
 		<label for="origine">Partir de:</label><br>
 		<input type="text" name="origine" id="origine"><br>
 		<label for="destination">Aller à:</label><br>
@@ -36,7 +37,7 @@
 			<option value="23:00">23:00</option>
 			<option value="00:00">00:00</option>
 		</select><br><br>
-		<input id="submit" type="submit">
+		<input id="submit" type="submit" value="Reservez">
 	</form>
 <video id="film" src="../images/film.mp4" width="1000px" autoplay loop>Optez pour un navigateur plus récent</video>
 

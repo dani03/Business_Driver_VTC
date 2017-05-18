@@ -31,7 +31,7 @@
           <option value="00:00">00:00</option>
         </select><br>
       </div>
-      <input id="submit" type="submit">
+      <input id="submit" type="submit" value="Reservez">
     </form>
 </div>
 <div class="descriptif">
