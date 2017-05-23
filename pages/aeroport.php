@@ -1,48 +1,52 @@
 
-  <div id="aile">
-    <h1>Trajet aéroport</h1>
-    <form class="formulaire2" method="post" action="#"><br>
+  <div id="aile">    <h1>Trajet aéroport</h1>
+    <form class="formulaire2" method="post" action="../app/form.php"><br>
       <h3>Mes informations</h3>
       <div class="">
         <label for="name">Nom*:</label>
-        <input type="text" name="nom" value="" required="" placeholder="entrez votre nom" id='name'>
+        <input type="text" name="nomAe" value="" required="" placeholder="entrez votre nom" id='name'>
         <label for="firstname">Prenom*:</label>
-        <input type="text" name="firstname" value="" required="" placeholder="entrez votre prenom" id='firstname'><br>
+        <input type="text" name="firstnameAe" value="" required="" placeholder="entrez votre prenom" id='firstname'><br>
       </div>
       <div id="email">
         <label for="email">Email*:</label>
-        <input type="email" name="mail" value="" required="" placeholder="ex:driver@gmail.com">
+        <input type="email" name="mailAe" value="" required="" placeholder="ex:driver@gmail.com">
       </div>
       <hr>
       <h3>Mon trajet</h3>
       <div class="">
         <label for="go">Depart*:</label>
-        <input type="text" name="" value="" id="go" required="" placeholder="entrez votre lieu de depart">
+        <input type="text" name="departAe" value="" id="go" required="" placeholder="entrez votre lieu de depart">
         ou aeroport:
-        <select value="choisir un aeroport">
+        <select value="choisir un aeroport" name="aeroportAeD">
           <option value="1">Paris/Roissy-Charles deGaulle</option>
           <option value="2">Paris/Orly</option>
         </select><br>
       </div>
       <div class="">
-        <label for="arriver">Arriver*:</label>
-        <input type="text" name="" value="" id="arriver" placeholder="entrez votre lieu d'arrivé">
+        <label for="arrivée">Arrivée*:</label>
+        <input type="text" name="arriveeAe" value="" id="arrivee" placeholder="entrez votre lieu d'arrivée">
         <label for="selection" id='choix2'>ou aeroport:</label>
-        <select class="two" name="aeroports" id='selection'>
+        <select class="two" name="aeroportAeA" id='selection'>
           <option value="1">Paris/Roissy-Charles deGaulle</option>
           <option value="2">Paris/Orly</option>
         </select><br>
       </div>
       <div class="">
         <label for="personne"> nombres de personnes :</label>
-        <select class="personnes" name="">
+        <select class="personnes" name="nbPer">
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
         </select> |
         <label for="horaires">heure de depart :</label>
-        <select name="horaires">
+        <select name="horairesAe">
           <option value="06:00">06:00</option>
           <option value="07:00">07:00</option>
           <option value="08:00">08:00</option>
@@ -64,7 +68,7 @@
           <option value="00:00">00:00</option>
         </select><br>
       </div>
-     <input type="submit" id='validation' name="" value="Reservez">
+     <input type="submit" id='validation'  value="ReservezAe">
    </form>
 </div>
 <?php require 'mode_paiement.php'; ?>

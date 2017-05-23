@@ -3,14 +3,14 @@
 
 <div id="mesure">
     <h1>Long Trajet</h1>
-    <form class="formulaire" method="post" action="#"><br>
+    <form class="formulaire" method="post" action="../app/form.php"><br>
       <label for="origine">Lieu de prise en charge:</label><br>
-      <input type="text" name="origine" id="origine"><br>
+      <input type="text" name="origineLt" id="origine"><br>
       <div class="hd">
         <label for="date">Date:</label>
-        <input type="date" name="" value="" placeholder="jj/mm/aaaa">
+        <input type="date" name="dateLt" value="" placeholder="jj/mm/aaaa">
         <label for="heure">Horaire:</label>
-        <select class="horaires" name="horaires">
+        <select class="horaires" name="horairesLt">
           <option value="06:00">06:00</option>
           <option value="07:00">07:00</option>
           <option value="08:00">08:00</option>
@@ -34,12 +34,12 @@
       </div>
       <label for="">Etape dans votre trajet:</label>
       <div class="radio2">
-        <input type="radio" name="choix" value="oui">Oui
-        <input type="radio" name="choix" value="non" checked>Non
+        <input type="radio" name="choixLt" value="oui">Oui
+        <input type="radio" name="choixLt" value="non" checked>Non
       </div>
       <label for="destination">Destination:</label><br>
-      <input type="text" name="destination" id="destination"><br>
-      <input id="submit" type="submit" value="Reservez">
+      <input type="text" name="destinationLt" id="destination"><br>
+      <input id="submit" type="submit" value="ReservezLt">
     </form>
 </div>
 <?php require 'mode_paiement.php'; ?>

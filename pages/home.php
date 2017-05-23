@@ -6,17 +6,17 @@
 	RESERVEZ<br>
 	EN UN CLICK
 	</div>
-	<form id="form" method="post" action="#">
+	<form id="form" method="post" action="../app/form.php">
 		<br>
 		<h1>Entrez votre trajet</h1>
 		<label for="origine">Partir de:</label><br>
-		<input type="text" name="origine" id="origine"><br>
+		<input type="text" name="origineAc" id="origine"><br>
 		<label for="destination">Aller à:</label><br>
-		<input type="text" name="destination" id="destination"><br>
+		<input type="text" name="destinationAc" id="destination"><br>
 		<label for="date">Date:</label><br>
-		<input type="date" name="" value="" placeholder="jj/mm/aaaa"><br>
+		<input type="date" name="dateAc" value="" placeholder="jj/mm/aaaa"><br>
 		<label for="heure">Horaire:</label>
-		<select name="horaires">
+		<select name="horairesAc">
 			<option value="06:00">06:00</option>
 			<option value="07:00">07:00</option>
 			<option value="08:00">08:00</option>
@@ -37,7 +37,7 @@
 			<option value="23:00">23:00</option>
 			<option value="00:00">00:00</option>
 		</select><br><br>
-		<input id="submit" type="submit" value="Reservez">
+		<input id="submit" type="submit" value="ReservezAc">
 	</form>
 <video id="film" src="../images/film.mp4" width="1000px" autoplay loop>Optez pour un navigateur plus récent</video>
 <hr>

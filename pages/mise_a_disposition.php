@@ -1,15 +1,15 @@
 <div id="disposition">
     <h1>Mise à disposition</h1>
-    <form class="formulaire3" method="post" action="#"><br>
+    <form class="formulaire3" method="post" action="../app/form.php"><br>
       <label for="origine">Votre adresse:</label><br>
-      <input type="text" name="origine" id="origine"><br>
+      <input type="text" name="origineMad" id="origine"><br>
       <h2>Lieu de prise en charge</h2>
       <div class="hd">
         <div class="debut">
           <label for="date">Date:</label><br>
-          <input type="date" name="" value="" placeholder="jj/mm/aaaa"><br>
+          <input type="date" name="dateMad" value="" placeholder="jj/mm/aaaa"><br>
           <label for="heure">Horaire:</label>
-          <select class="horaires" name="horaires">
+          <select class="horaires" name="horairesMad">
             <option value="06:00">06:00</option>
             <option value="07:00">07:00</option>
             <option value="08:00">08:00</option>
@@ -37,9 +37,9 @@
       <div class="hd">
         <div class="debut">
           <label for="date">Date:</label><br>
-          <input type="date" name="" value="" placeholder="jj/mm/aaaa"><br>
+          <input type="date" name="dateMadfin" value="" placeholder="jj/mm/aaaa"><br>
           <label for="heure">Horaire:</label>
-          <select class="horaires" name="horaires">
+          <select class="horaires" name="horairesMad">
             <option value="06:00">06:00</option>
             <option value="07:00">07:00</option>
             <option value="08:00">08:00</option>
@@ -62,7 +62,7 @@
           </select><br>
         </div>
       </div>
-      <input id="submit" type="submit" value="Reservez">
+      <input id="submit" type="submit" value="ReservezMad">
     </form>
 </div>
 <div class="descriptifP">

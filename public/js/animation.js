@@ -84,6 +84,12 @@ sr.reveal('.descriptif h1',{
   distance: '100px'
 });
 
+sr.reveal('.descriptifP h1',{
+  duration: 2000,
+  origin: 'top',
+  distance: '100px'
+});
+
 sr.reveal('.anim1', {
   duration: 2000,
   origin: 'left',
