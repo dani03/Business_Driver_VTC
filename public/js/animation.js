@@ -77,3 +77,27 @@ sr.reveal('#film', {
   origin: 'right',
   distance: '100px'
 });
+
+sr.reveal('.descriptif h1',{
+  duration: 2000,
+  origin: 'top',
+  distance: '100px'
+});
+
+sr.reveal('.anim1', {
+  duration: 2000,
+  origin: 'left',
+  distance: '100px'
+});
+
+sr.reveal('.anim2', {
+  duration: 2000,
+  origin: 'bottom',
+  distance: '100px'
+});
+
+sr.reveal('.anim3', {
+  duration: 2000,
+  origin: 'right',
+  distance: '100px'
+});

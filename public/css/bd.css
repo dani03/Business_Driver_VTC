@@ -123,13 +123,6 @@ text-decoration: none;
 text-decoration: none;
 }
 
-.trait{
-	height: 1px;
-	width: 95%;
-	margin: auto;
-	background-color: grey;
-}
-
 main{
 	margin-top:7px;
 	padding-top: 0;
@@ -145,14 +138,14 @@ main{
 #etapes{
 	margin-top: 60px;
 	width: 100%;
-	height: 460px;
+	height: 380px;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
 	margin-right: 10px;
 }
 
-.etape{
+/*.etape{
 	display: inline-block;
 	width: 280px;
 	padding-top: 12px;
@@ -163,7 +156,7 @@ main{
 .etape p{
 	text-align: center;
 	margin-left: -15px;
-}
+}*/
 
 .etape h4{
 text-align: center;
@@ -173,9 +166,7 @@ height: 30px;
 .image{
 	width: 160px;
 	height: 130px;
-	margin: auto;
-	border-radius: 8px;
-	margin-left: 30px;
+	border-radius: 7px;
 }
 
 #aile{
@@ -188,8 +179,6 @@ height: 30px;
 	background-position: center;
 	background-size: cover;
 }
-
-
 
 #reserverClick{
 	z-index: 20;
@@ -206,11 +195,7 @@ height: 30px;
 	line-height: 35px;
 	border-right: 1px solid gold;
 	cursor: pointer;
-
 }
-
-
-
 
 #form label{
 	display: flex;
@@ -267,6 +252,19 @@ input{
 	margin-left: 10px;
 }
 
+.descriptif{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	height: 350px;
+}
+
+.descriptifP{
+	text-align: center;
+	height: 350px;
+}
+
 .descriptif h1{
 	text-align: center;
 	font-size: 50px;
@@ -275,10 +273,37 @@ input{
 
 .descriptif p{
 	text-align: center;
-	font-size: 25px;
+	font-size: 20px;
 	padding: 0 10px;
 }
-/************************ formulaire Trajet sur mesure ********************/
+
+.iconesDiv{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+.icone{
+	height: 80px;
+	width: 80px;
+	margin-top: 5px;
+}
+
+.modeP{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.modeP p{
+	margin-top: 0;
+}
+
+.infoP{
+	display: flex;
+	flex-direction: column;
+}
+/************************ formulaire long trajet ********************/
 
 #mesure{
 	width: 100%;
@@ -294,7 +319,7 @@ input{
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	height: 270px;
+	height: 260px;
 	width: 370px;
 	border-radius: 7px;
 	background-color: #FFD700;
@@ -343,6 +368,10 @@ input{
 	display: flex;
 	width: 3px;
 	justify-content: flex-end;
+}
+
+#destination{
+	margin-bottom: 0px;
 }
 /*************************formulaire aeroport************************************/
 

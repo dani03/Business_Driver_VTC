@@ -3,7 +3,7 @@
     <form class="formulaire3" method="post" action="#"><br>
       <label for="origine">Votre adresse:</label><br>
       <input type="text" name="origine" id="origine"><br>
-      <h2>Debut de disposition</h2>
+      <h2>Lieu de prise en charge</h2>
       <div class="hd">
         <div class="debut">
           <label for="date">Date:</label><br>
@@ -33,7 +33,7 @@
         </div>
       </div>
       <hr>
-      <h2>Fin de disposition</h2>
+      <h2>Fin de la prise en charge</h2>
       <div class="hd">
         <div class="debut">
           <label for="date">Date:</label><br>
@@ -65,9 +65,18 @@
       <input id="submit" type="submit" value="Reservez">
     </form>
 </div>
-<div class="descriptif">
-  <h1>Mise à disposition</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<div class="descriptifP">
+  <h1>Les modes de paiements</h1>
+  <div class="iconesDiv">
+    <div class="modeP anim1">
+      <i class="fa fa-credit-card-alt fa-5x" aria-hidden="true"></i>
+      <p>par carte</p>
+    </div>
+    <div class="modeP anim3">
+      <img class=icone src="../images/icone_cheque.png" alt="">
+      <p>par chèque</p>
+    </div>
+  </div>
 </div>
 <script type="text/javascript" src="../public/js/animation.js"></script>
 <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>

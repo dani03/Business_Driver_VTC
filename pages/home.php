@@ -40,27 +40,25 @@
 		<input id="submit" type="submit" value="Reservez">
 	</form>
 <video id="film" src="../images/film.mp4" width="1000px" autoplay loop>Optez pour un navigateur plus récent</video>
-
-	<div class="trait"></div>
-	<div id="etapes">
-		<div class="etape">
-			<img  class="image" src="../images/telMain.png" width="130px">
-			<div class="titles">Le moyen le plus simple de se déplacer</div>
-  Appuyez sur une touche et votre chauffeur est déjà là pour vous amener à bon port. En sécurité et confort. Paiement simple et rapide.</p>
-		</div>
-		<div class="etape">
-			<img class="image" src="../images/chauffeur.jpg">
-			<div class="titles">Partout, à tout instant</div>
-
-<p> Un vol à prendre  ? Une course à l'autre bout de la ville, ou un grand trajet ? <strong>Transfert Class</strong>  vient vous chercher à tout moment.</p>
-		</div>
-		<div class="etape">
-			<img class="image" src="../images/paiement.jpg">
-			<div class="titles">Accessible à tous</div>
-
-<p>Une qualité de service haut de gamme. Pour votre transport en confiance et à n'importe quelle occasion, commandez un véhicule de qualité.</p>
+<hr>
+	<div class="descriptifP">
+		<div class="iconesDiv">
+			<div class="modeP anim1">
+				<img class="image" src="../images/telMain.png" width="130px">
+				<p>Le moyen le plus simple de se déplacer
+					Appuyez sur une touche et votre chauffeur est déjà là pour vous amener à bon port. En sécurité et confort. Paiement simple et rapide.</p>
+			</div>
+			<div class="modeP anim2">
+				<img class="image" src="../images/chauffeur.jpg">
+				<p> Partout, à tout instant. Un vol à prendre  ? Une course à l'autre bout de la ville, ou un grand trajet ? <strong>Transfert Class</strong>  vient vous chercher à tout moment.</p>
+			</div>
+			<div class="modeP anim3">
+				<img class="image" src="../images/paiement.jpg">
+				<p>Accessible à tous. Une qualité de service haut de gamme. Pour votre transport en confiance et à n'importe quelle occasion, commandez un véhicule de qualité.</p>
+			</div>
 		</div>
 	</div>
-</div>
+	<hr>
+	<?php require 'mode_paiement.php'; ?>
 <script type="text/javascript" src="../public/js/animation.js"></script>
 <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
