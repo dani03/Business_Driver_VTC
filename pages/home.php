@@ -37,7 +37,7 @@
 			<option value="23:00">23:00</option>
 			<option value="00:00">00:00</option>
 		</select><br><br>
-		<input id="submit" type="submit" value="ReservezAc">
+		<input id="submit" type="submit" value="Reservez">
 	</form>
 <video id="film" src="../images/film.mp4" width="1000px" autoplay loop>Optez pour un navigateur plus récent</video>
 <hr>

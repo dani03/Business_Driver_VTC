@@ -145,19 +145,6 @@ main{
 	margin-right: 10px;
 }
 
-/*.etape{
-	display: inline-block;
-	width: 280px;
-	padding-top: 12px;
-	padding-left: 40px;
-	overflow: visible;
-}
-
-.etape p{
-	text-align: center;
-	margin-left: -15px;
-}*/
-
 .etape h4{
 text-align: center;
 height: 30px;
@@ -225,8 +212,19 @@ input{
 	margin-top: 0;
 }
 
+label{
+	font-family: 'Cuprum';
+}
+
+#reserverClick{
+	font-family: 'Cuprum';
+	font-weight: bold;
+}
+
 #reserverClick:hover{
 	background-color: gold;
+	font-family: 'Cuprum';
+	font-weight: bold;
 }
 
 #form{
@@ -246,6 +244,11 @@ input{
 	padding-top: 10px;
 }
 
+#form h1{
+	font-family: 'Cuprum';
+	font-size: 25px;
+}
+
 .horaires{
 	display: flex;
 	align-self: flex-start;
@@ -261,6 +264,7 @@ input{
 }
 
 .descriptifP{
+	font-family: 'Cuprum';
 	text-align: center;
 	height: 350px;
 }
@@ -279,8 +283,8 @@ input{
 
 .iconesDiv{
 	display: flex;
-	justify-content: center;
 	justify-content: space-around;
+	margin-top: 90px;
 }
 
 .icone{
@@ -329,6 +333,12 @@ input{
 
 #mesure h1{
 	color: white;
+	font-family: 'Cuprum';
+	font-size: 50px;
+}
+
+.radio{
+	font-family: 'Cuprum';
 }
 
 #submit{
@@ -377,7 +387,14 @@ input{
 
 #aile h1 {
 	color: white;
+	font-family: 'Cuprum';
+	font-size: 50px;
 }
+
+#aile h2{
+	font-family: 'Cuprum';
+}
+
 .formulaire2{
 	display: flex;
 	flex-direction: column;
@@ -444,9 +461,12 @@ hr{
 
 #disposition h1{
 	color: white;
+	font-family: 'Cuprum';
+	font-size: 50px;
 }
 
 #disposition h2{
+	font-family: 'Cuprum';
 	margin-top: 0;
 }
 

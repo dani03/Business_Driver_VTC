@@ -3,7 +3,7 @@
     <form class="formulaire3" method="post" action="../app/form.php"><br>
       <label for="origine">Votre adresse:</label><br>
       <input type="text" name="origineMad" id="origine"><br>
-      <h2>Lieu de prise en charge</h2>
+      <h2>Début de prise en charge</h2>
       <div class="hd">
         <div class="debut">
           <label for="date">Date:</label><br>
@@ -33,7 +33,7 @@
         </div>
       </div>
       <hr>
-      <h2>Fin de la prise en charge</h2>
+      <h2>Fin de prise en charge</h2>
       <div class="hd">
         <div class="debut">
           <label for="date">Date:</label><br>
@@ -62,7 +62,7 @@
           </select><br>
         </div>
       </div>
-      <input id="submit" type="submit" value="ReservezMad">
+      <input id="submit" type="submit" value="Reservez">
     </form>
 </div>
 <div class="descriptifP">

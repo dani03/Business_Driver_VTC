@@ -1,7 +1,8 @@
 
-  <div id="aile">    <h1>Trajet aéroport</h1>
+  <div id="aile">
+    <h1>Trajet aéroport</h1>
     <form class="formulaire2" method="post" action="../app/form.php"><br>
-      <h3>Mes informations</h3>
+      <h2>Mes informations</h2>
       <div class="">
         <label for="name">Nom*:</label>
         <input type="text" name="nomAe" value="" required="" placeholder="entrez votre nom" id='name'>
@@ -13,11 +14,10 @@
         <input type="email" name="mailAe" value="" required="" placeholder="ex:driver@gmail.com">
       </div>
       <hr>
-      <h3>Mon trajet</h3>
+      <h2>Mon trajet</h2>
       <div class="">
         <label for="go">Depart*:</label>
-        <input type="text" name="departAe" value="" id="go" required="" placeholder="entrez votre lieu de depart">
-        ou aeroport:
+        <input type="text" name="departAe" value="" id="go" required="" placeholder="entrez votre lieu de depart"><label for="selection" id='choix1'>ou aeroport:</label>
         <select value="choisir un aeroport" name="aeroportAeD">
           <option value="1">Paris/Roissy-Charles deGaulle</option>
           <option value="2">Paris/Orly</option>
@@ -68,7 +68,7 @@
           <option value="00:00">00:00</option>
         </select><br>
       </div>
-     <input type="submit" id='validation'  value="ReservezAe">
+     <input type="submit" id='validation'  value="Reservez">
    </form>
 </div>
 <?php require 'mode_paiement.php'; ?>

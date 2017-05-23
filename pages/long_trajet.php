@@ -39,7 +39,7 @@
       </div>
       <label for="destination">Destination:</label><br>
       <input type="text" name="destinationLt" id="destination"><br>
-      <input id="submit" type="submit" value="ReservezLt">
+      <input id="submit" type="submit" value="Reservez">
     </form>
 </div>
 <?php require 'mode_paiement.php'; ?>
