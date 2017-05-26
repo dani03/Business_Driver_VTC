@@ -21,8 +21,8 @@
 	</div>
 <div id="navi">
 <?php
-if ($p!=='home'){
-	?>
+	if ($p!=='home'){
+?>
 <ul>
 	<li><a href="index.php?p=home">Accueil</a></li>
 	<li><a href="index.php?p=aeroport">Trajet Aéroport</a></li>
@@ -30,8 +30,8 @@ if ($p!=='home'){
 	<li><a href="index.php?p=mise_a_disposition">Mise à disposition</a></li>
 </ul>
 <?php
-}else{
-	?>
+	}else{
+?>
 	<ul>
 	<li><a href="index.php?p=aeroport">Trajet Aéroport</a></li>
 	<li><a href="index.php?p=long_trajet">Long Trajet</a></li>

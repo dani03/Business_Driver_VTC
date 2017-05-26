@@ -9,5 +9,5 @@ session_start();
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="../public/css/bd.css">
 	<link rel="stylesheet" href="../public/css/font-awesome/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto|Gill+Sans|Scada|Cuprum" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Cuprum" rel="stylesheet">
 </head>
