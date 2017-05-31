@@ -21,7 +21,7 @@
         <select value="choisir un aeroport" name="aeroportAeD">
           <option id="cdg"value="cdg">Paris/Roissy-Charles deGaulle</option>
           <option id="aeroportOrly" value="2">Paris/Orly</option>
-          <option id="beauvaisAero" value="3">aeroport beauvais</option>
+          <option id="beauvaisAero" value="3">Aeroport Beauvais</option>
         </select><br>
         <section id="vol">
           <label id="terminal" for="terminaux">terminal:</label>
@@ -47,7 +47,7 @@
         <select class="two" name="aeroportAeA" id='selection'>
           <option value="1" class="charles">Paris/Roissy-Charles deGaulle</option>
           <option value="2">Paris/Orly</option>
-          <option value="3">beauvais</option>
+          <option value="3">Aéroport Beauvais</option>
         </select><br>
         <section id="vol">
           <label id="terminal" for="terminaux">terminal:</label>
