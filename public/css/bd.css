@@ -528,10 +528,10 @@ float: left;
 	font-family: 'Cuprum';
 }
 .foot2 a{
-	color:black;
+	color:#fff;
 	text-decoration: none;
 
 }
 .foot2 a:hover{
-	color:white;
+	color:black;
 }
